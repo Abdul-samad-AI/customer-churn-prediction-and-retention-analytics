@@ -1,102 +1,168 @@
-# Customer Churn & Retention Strategy  
-Python | SQL | Logistic Regression | Power BI
+---
 
-## Project Overview
-Customer churn is a critical challenge for telecom and subscription-based businesses.  
-This project analyzes customer behavior to identify churn drivers, segment customers by churn risk, and recommend data-driven retention strategies using SQL, machine learning, and business intelligence tools.
+# 📊 Customer Churn & Retention Strategy
+
+**Python · SQL · Machine Learning · Power BI**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-blue?logo=python" />
+  <img src="https://img.shields.io/badge/SQL-PostgreSQL-blue?logo=postgresql" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Logistic%20Regression-green" />
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi" />
+  <img src="https://img.shields.io/badge/Status-Completed-success" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/PNG/Power-BI.png" width="70"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="70"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="70"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="70"/>
+</p>
 
 ---
 
-## Business Problem
-Which customers are most likely to churn, and what targeted actions can reduce customer attrition?
+## 🚀 Project Overview
+
+Customer churn is one of the **most critical business challenges** for telecom and subscription-based companies.
+
+This project delivers an **end-to-end churn analytics and retention solution**, combining:
+
+* **SQL-driven business analysis**
+* **Explainable machine learning**
+* **Interactive Power BI dashboards**
+
+🎯 **Goal:** Identify high-risk customers, understand churn drivers, and recommend **actionable, data-backed retention strategies**.
 
 ---
 
-## Dataset
-- Source: Telco Customer Churn Dataset (Kaggle)
-- Total Records: 7,043 customers
-- Features: Customer demographics, services, contracts, billing, and payment methods
-- Target Variable: Churn (Yes / No)
+## 🧠 Business Problem
+
+> **Which customers are most likely to churn, and what targeted actions can reduce customer attrition?**
+
+This project answers:
+
+* *Who* is churning?
+* *Why* they are churning?
+* *What* actions can reduce churn?
 
 ---
 
-## Technology Stack
-- Programming Language: Python
-- Data Analysis: pandas, numpy, seaborn, matplotlib
-- Machine Learning: scikit-learn (Logistic Regression)
-- Database & Querying: SQL (PostgreSQL)
-- Business Intelligence: Power BI
-- Version Control: Git and GitHub
+## 📂 Dataset
+
+* **Source:** Telco Customer Churn Dataset (Kaggle)
+* **Records:** 7,043 customers
+* **Features:**
+
+  * Customer demographics
+  * Service subscriptions
+  * Contract & billing details
+  * Payment methods
+* **Target Variable:** `Churn (Yes / No)`
 
 ---
 
-## End-to-End Workflow
+## 🛠️ Technology Stack
 
-1. Data Cleaning and Preparation  
-   - Fixed incorrect data types and handled missing values  
-   - Created tenure-based customer groups for analysis  
-
-2. Exploratory Data Analysis  
-   - Analyzed churn patterns across tenure, contract type, and payment method  
-   - Identified key behavioral and pricing-related churn drivers  
-
-3. SQL-Based Analysis  
-   - Built churn KPIs such as overall churn rate and churn by contract  
-   - Segmented customers into High, Medium, and Low churn risk categories  
-
-4. Machine Learning Modeling  
-   - Developed an explainable Logistic Regression model  
-   - Achieved approximately 80% prediction accuracy  
-   - Interpreted feature coefficients to quantify churn drivers  
-
-5. Power BI Dashboard  
-   - Designed a stakeholder-ready dashboard highlighting churn trends  
-   - Visualized churn risk segments and high-risk customer profiles  
-   - Presented actionable retention recommendations  
+| Category           | Tools                              |
+| ------------------ | ---------------------------------- |
+| Programming        | Python                             |
+| Data Analysis      | pandas, numpy, seaborn, matplotlib |
+| Machine Learning   | scikit-learn (Logistic Regression) |
+| Database           | SQL (PostgreSQL)                   |
+| BI & Visualization | Power BI                           |
+| Version Control    | Git & GitHub                       |
 
 ---
 
-## Key Insights
-- Customers on month-to-month contracts show significantly higher churn rates  
-- Electronic check payment users churn more frequently than auto-pay customers  
-- Customers with tenure less than one year are at the highest risk of churn  
-- Longer tenure and long-term contracts strongly reduce churn probability  
+## 🔄 End-to-End Workflow
+
+### 1️⃣ Data Cleaning & Preparation
+
+* Fixed incorrect data types
+* Handled missing and inconsistent values
+* Created **tenure-based customer segments**
+
+### 2️⃣ Exploratory Data Analysis (EDA)
+
+* Churn analysis by **contract type, tenure, and payment method**
+* Identified **behavioral & pricing-related churn drivers**
+
+### 3️⃣ SQL-Based Business Analysis
+
+* Built churn KPIs:
+
+  * Overall churn rate
+  * Churn by contract type
+* Segmented customers into:
+
+  * **High Risk**
+  * **Medium Risk**
+  * **Low Risk**
+
+### 4️⃣ Machine Learning Modeling
+
+* Built an **interpretable Logistic Regression model**
+* Achieved **~80% prediction accuracy**
+* Analyzed feature coefficients to explain churn drivers
+
+### 5️⃣ Power BI Dashboard
+
+* Executive-ready dashboard with:
+
+  * Churn KPIs
+  * Risk segmentation
+  * High-risk customer profiles
+* Converted insights into **clear retention strategies**
 
 ---
 
-## Model Performance
-- Model Type: Logistic Regression  
-- Accuracy: Approximately 80%  
-- Evaluation Metrics: Accuracy, Precision, Recall, F1-score  
+## 📈 Key Insights
 
-Logistic Regression was chosen for its simplicity, interpretability, and suitability for explaining business drivers behind churn.
-
----
-
-## Power BI Dashboard
-The Power BI dashboard provides:
-- Overall churn overview and key KPIs  
-- Customer churn risk segmentation  
-- High-risk customer profiling for targeted interventions  
-- Data-backed retention strategies for business decision-making  
+✔ Customers on **month-to-month contracts** churn significantly more
+✔ **Electronic check** users churn more than auto-pay users
+✔ Customers with **< 1 year tenure** are at highest risk
+✔ Long-term contracts and higher tenure **reduce churn probability**
 
 ---
 
-## Business Recommendations
-- Encourage customers to move from month-to-month to long-term contracts  
-- Promote automatic payment methods to reduce payment-related churn  
-- Proactively engage customers during the first year of tenure  
-- Offer targeted discounts and retention offers to high-risk customers  
+## 🤖 Model Performance
+
+* **Model:** Logistic Regression
+* **Accuracy:** ~80%
+* **Metrics:** Accuracy, Precision, Recall, F1-Score
+
+📌 Logistic Regression was chosen for its **simplicity, interpretability, and business explainability**.
 
 ---
 
-## Project Structure
+## 📊 Power BI Dashboard Highlights
+
+* Overall churn overview & KPIs
+* Customer risk segmentation
+* High-risk customer profiling
+* Actionable retention recommendations
+
+*(Add dashboard screenshots here for even more impact)*
+
+---
+
+## 💡 Business Recommendations
+
+* Move customers from **month-to-month → long-term contracts**
+* Incentivize **automatic payment methods**
+* Proactively engage customers in their **first year**
+* Offer **targeted discounts** to high-risk customers
+
+---
+
+## 🗂️ Project Structure
+
 ```
 customer-churn-retention/
 │
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
 ├── sql/
 ├── dashboards/
@@ -108,14 +174,25 @@ customer-churn-retention/
 
 ---
 
-## How to Run the Project
-1. Clone the repository  
-2. Install dependencies using `requirements.txt`("pip install -r requirements.txt")
-3. Execute notebooks in sequential order  
-4. Open the Power BI dashboard file for visualization  
+## ▶️ How to Run the Project
+
+1. Clone the repository
+2. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run notebooks sequentially
+4. Open the Power BI dashboard file
 
 ---
 
-## Author
-Abdul Samad  
-Aspiring Data Analyst / Machine Learning Engineer
+## 👨‍💻 Author
+
+**Abdul Samad**
+🎓 Aspiring **Data Analyst / Machine Learning Engineer**
+📍 India
+
+🔗 *Open to internships & entry-level data roles*
+
+---
