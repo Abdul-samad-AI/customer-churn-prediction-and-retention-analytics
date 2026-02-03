@@ -1,5 +1,3 @@
----
-
 # 📊 Customer Churn & Retention Strategy
 
 **Python · SQL · Machine Learning · Power BI**
